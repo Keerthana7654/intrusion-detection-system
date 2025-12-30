@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <servlet>
+        <servlet-name>cyperattack</servlet-name>
+        <servlet-class>action.cyperattack</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>regis</servlet-name>
+        <servlet-class>action.regis</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>userimagupload</servlet-name>
+        <servlet-class>action.userimagupload</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>cyperattack</servlet-name>
+        <url-pattern>/cyperattack</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>regis</servlet-name>
+        <url-pattern>/regis</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>userimagupload</servlet-name>
+        <url-pattern>/userimagupload</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
