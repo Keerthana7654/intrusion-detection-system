@@ -104,7 +104,7 @@ IDPS/
 
 ## Team
 
-Built as a team academic project at GT College (Affiliated to Bangalore University) as part of the MCA programme.
+Built as a team academic project at Vasavi Jnana Peetha First Grade College (Affiliated to Bangalore University) as part of the BCA programme.
 
 ---
 
